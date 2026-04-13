@@ -280,12 +280,6 @@ export default async function ClinicPage({ params }: Props) {
                         Book Appointment
                       </a>
                     </Button>
-                    <Button variant="outline" className="w-full gap-2" asChild>
-                      <a href={`tel:${clinic.phone}`}>
-                        <Phone className="h-4 w-4" />
-                        Call to Schedule
-                      </a>
-                    </Button>
                   </div>
                 </CardContent>
               </Card>
