@@ -197,14 +197,7 @@ export default function UserClinicListingPage() {
                     </Link>
                   </Button>
                 )}
-                {clinic.phone && (
-                  <Button variant="outline" className="gap-2" asChild>
-                    <a href={`tel:${clinic.phone}`}>
-                      <Phone className="h-4 w-4" />
-                      Call Now
-                    </a>
-                  </Button>
-                )}
+
                 {websiteHref && (
                   <Button className="gap-2" asChild>
                     <a href={websiteHref} target="_blank" rel="noopener noreferrer">
