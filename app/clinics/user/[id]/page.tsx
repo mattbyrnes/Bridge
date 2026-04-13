@@ -306,12 +306,9 @@ export default function UserClinicListingPage() {
                       <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                       <div>
                         <p className="text-sm font-medium text-foreground">Phone</p>
-                        <a
-                          href={`tel:${clinic.phone}`}
-                          className="text-sm text-muted-foreground transition-colors hover:text-primary"
-                        >
+                        <p className="text-sm text-muted-foreground">
                           {clinic.phone}
-                        </a>
+                        </p>
                       </div>
                     </div>
                   )}
