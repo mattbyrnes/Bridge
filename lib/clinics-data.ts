@@ -501,7 +501,7 @@ export const clinics: Clinic[] = [
     description: "Premium med spa and wellness center with 1000+ excellent reviews.",
     longDescription: "4Ever Young is Atlanta's most reviewed wellness center, combining IV therapy with anti-aging and beauty treatments.",
     featured: true,
-    image: "/clinics/4ever-young-midtown.jpg",
+    image: "/4ever-young-midtown.jpg",
     amenities: ["Full med spa", "Beauty services", "Luxury amenities", "Relaxation space"],
     certifications: ["Board certified practitioners"],
     reviews: [
