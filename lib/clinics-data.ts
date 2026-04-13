@@ -169,7 +169,7 @@ export const clinics: Clinic[] = [
     description: "Premium wellness center offering IV therapy and biohacking services on Atlanta's Westside.",
     longDescription: "Restore Hyper Wellness is dedicated to optimizing human performance through cutting-edge IV therapy and wellness services. Our state-of-the-art facility provides personalized treatments designed to boost energy, enhance recovery, and support overall wellness. With services including Cryotherapy, Red Light Therapy, Infrared Sauna, IV Drips, and more, we help you look and feel better than you thought possible.",
     featured: true,
-    image: "https://cdn.prod.website-files.com/64156026a787d0f2bb0393c4/66df9ec31f5d13f0f0f0c0b4_Restore%20Hyper%20Wellness%20-%20Who%20We%20Are.jpg",
+    image: "/restore-hero.jpg",
     galleryImages: [
       "/restore-gallery-1.jpg",
       "/restore-gallery-2.jpg",
