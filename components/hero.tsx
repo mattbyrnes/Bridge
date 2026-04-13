@@ -16,7 +16,7 @@ export function Hero({ searchQuery, onSearchChange }: HeroProps) {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-medium uppercase tracking-wider text-primary">
-            Georgia Wellness Directory
+            Atlanta Wellness Directory
           </p>
           <h1 className="mt-4 font-serif text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
             Find IV Therapy Clinics Near You
