@@ -25,9 +25,8 @@ export function Header() {
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-lg font-semibold leading-tight text-foreground">
-                Bridge IV Therapy
+                Bridge IV Therapy Directory
               </span>
-              <span className="text-xs text-muted-foreground">Directory</span>
             </div>
           </Link>
 
