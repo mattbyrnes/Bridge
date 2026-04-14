@@ -1,10 +1,10 @@
 import { Pool, ClientBase } from 'pg'
 
+// Use non-pooling URL for direct connection to avoid SSL issues
+const connectionString = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL
+
 const pool = new Pool({
-  connectionString: process.env.POSTGRES_URL,
-  ssl: {
-    rejectUnauthorized: false,
-  },
+  connectionString,
   max: 20,
 })
 
