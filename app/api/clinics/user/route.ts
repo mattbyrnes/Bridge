@@ -44,7 +44,7 @@ export async function POST(request: Request) {
         description || "",
         priceRange || "$",
         hours || "9AM - 5PM",
-        services || [],
+        JSON.stringify(services || []),
         image || "",
         "approved",
       ]
