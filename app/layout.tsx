@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Georgia IV Therapy Directory | Find Wellness Clinics Near You',
+  title: 'Bridge IV Therapy Directory | Find Wellness Clinics Near You',
   description: 'Discover top-rated IV therapy clinics across Georgia. Browse wellness centers offering hydration, vitamin infusions, NAD+, and more.',
   generator: 'v0.app',
   icons: {

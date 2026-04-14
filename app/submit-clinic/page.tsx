@@ -155,9 +155,8 @@ export default function SubmitClinicPage() {
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-lg font-semibold leading-tight text-foreground">
-                  Georgia IV
+                  Bridge IV Therapy Directory
                 </span>
-                <span className="text-xs text-muted-foreground">Therapy Directory</span>
               </div>
             </Link>
           </div>

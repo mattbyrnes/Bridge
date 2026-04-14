@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props) {
   const clinic = clinics.find((c) => c.slug === slug);
   if (!clinic) return {};
   return {
-    title: `${clinic.name} | Georgia IV Therapy Directory`,
+    title: `${clinic.name} | Bridge IV Therapy Directory`,
     description: clinic.longDescription.slice(0, 160),
   };
 }

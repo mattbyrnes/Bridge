@@ -13,10 +13,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-lg font-semibold text-foreground">
-                  Georgia IV
-                </span>
-                <span className="text-xs text-muted-foreground">
-                  Therapy Directory
+                  Bridge IV Therapy Directory
                 </span>
               </div>
             </Link>
@@ -91,7 +88,7 @@ export function Footer() {
         <div className="mt-12 border-t border-border pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Georgia IV Therapy Directory. All rights reserved.
+              © {new Date().getFullYear()} Bridge IV Therapy Directory. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link
