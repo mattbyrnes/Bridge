@@ -1,7 +1,13 @@
 import { Pool, ClientBase } from 'pg'
 
-// Use non-pooling URL for direct connection to avoid SSL issues
-const connectionString = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL
+// Use non-pooling URL and append libpq compat flag to fix SSL certificate issues
+let connectionString = process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL || ''
+
+// Add libpq compatibility mode to handle SSL properly
+if (connectionString && !connectionString.includes('uselibpqcompat')) {
+  const separator = connectionString.includes('?') ? '&' : '?'
+  connectionString = `${connectionString}${separator}uselibpqcompat=true`
+}
 
 const pool = new Pool({
   connectionString,
